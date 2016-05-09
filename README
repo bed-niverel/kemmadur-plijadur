@@ -1,0 +1,8 @@
+"Kemmadur Plijadur" is a tool designed to help beginners find and use mutations in Breton language. It is written in Javascript and works client-side exclusively. A simple HTTP server is enough to run it.
+
+It uses:
+
+ * the js libraries require.js with the 'text' and 'json' plugins.
+ * the font Webly Sleek
+
+It is unfinished and still in development, but it may be possible to adapt the concept to other celtic languages (or other languages with mutations). Please contact me if you wish to do so.
