@@ -1,0 +1,83 @@
+
+[
+  {"id": "blotaat", "name": "Kemmadur dre vlotaat",
+    "mutations": {
+      "K": "G",
+      "T": "D",
+      "P": "B",
+      "G": "C'h",
+      "Gw": "W",
+      "D": "Z",
+      "B": "V",
+      "M": "V"
+    },
+    "mutations_voiced": {
+      "H": "mut",
+      "C'h": "H",
+      "CH": "J",
+      "S": "Z",
+      "N": "n",
+      "F": "v",
+      "L": "l",
+      "R": "r"
+    }
+  },
+  {"id": "blotaat_gm", "name": "Kemmadur dre vlotaat",
+    "mutations": {
+      "K": "G",
+      "T": "D",
+      "P": "B",
+      "G": "C'h",
+      "Gw": "W",
+      "B": "V",
+      "M": "V"
+    },
+    "mutations_voiced": {
+      "H": "mut",
+      "C'h": "H",
+      "CH": "J",
+      "S": "Z",
+      "N": "n",
+      "F": "v",
+      "L": "l",
+      "R": "r"
+    }
+  },
+  {"id": "blotaat", "name": "Kemmadur dre vlotaat",
+    "mutations": {
+      "G": "K",
+      "D": "T",
+      "B": "P"
+    }
+  },
+  {"id": "chwezhan", "name": "Kemmadur dre c'hwezhañ",
+    "mutations": {
+      "K": "C'h",
+      "T": "Z",
+      "P": "F"
+    }
+  },
+  {"id": "kemmesket", "name": "Kemmadur kemmesket",
+    "mutations": {
+      "G": "C'h",
+      "Gw": "w",
+      "D": "T",
+      "B": "V",
+      "M": "V"
+    }
+  },
+  {"id": "diglok", "name": "Kemmadur kemmesket",
+    "mutations": {
+      "G": "C'h",
+      "Gw": "w",
+      "D": "Z",
+      "B": "V",
+      "M": "V"
+    }
+  },
+  {"id": "diglok_k", "name": "Kemmadur diglok k->C'h",
+    "mutations": {
+      "K": "C'h"
+    }
+  }
+]
