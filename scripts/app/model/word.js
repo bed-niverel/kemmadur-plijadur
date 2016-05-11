@@ -3,7 +3,7 @@ define(function (require) {
 /**
  * Word
  * Represents a word, with children words
- * @author Gwenn Meynier
+ * @author Gwenn Meynier <tornoz@laposte.net>
  */
   var otherSide = {'right': 'left', 'left': 'right'};
 

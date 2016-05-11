@@ -8,10 +8,21 @@ body {
   font-family: "Webly Sleek";
   color:white;
   background-color: black;
+  overflow:hidden;
 }
 .fwhite {
 
 }
+/* Change the alignment of scrollbars */
+     /* Recommended: You can just modify the CSS file directly. */
+  #left.ps-container .ps-scrollbar-x-rail {
+       top: 3px;
+       bottom: auto; /* If using `top`, there shouldn't be a `bottom`. */
+     }
+  #left.ps-container .ps-scrollbar-y-rail {
+       left: 3px;
+       right: auto; /* If using `left`, there shouldn't be a `right`. */
+     }
 .red {
   background-color: #AC193D;
 }
@@ -34,8 +45,9 @@ body {
   width: 100%;
   height: 100vh;
   width: 50%;
-  overflow-y: auto;
-  overflow-x:hidden;
+  /*overflow-y: auto;*/
+  overflow:hidden;
+  position:relative;
 }
 .end-block {
   width: 100%;
@@ -181,21 +193,40 @@ body {
   margin-left: 0%;
 }
 
+.fade-out {
+  animation-duration: 0.5s;
+  animation-name: fadeOut;
+  animation-timing-function: ease-in;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0.9;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 @keyframes slideoutRight {
   from {
     margin-left: 0%;
+    opacity: 1;
   }
   to {
     margin-left: 100%;
+    opacity: 0.2;
   }
 }
 
 @keyframes slideoutLeft {
   from {
     margin-left: 0%;
+    opacity: 1;
   }
   to {
     margin-left: -100%;
+    opacity:0.2;
   }
 }
 

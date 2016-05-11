@@ -20,6 +20,9 @@ define(function (require) {
   var factoryLeft = new BlockFactory('left', manager);
   var factoryRight = new BlockFactory('right', manager);
   var kemmaduriouManager = new KemmaduriouManager(kemmaduriou, words);
+
+  Ps.initialize(left);
+  Ps.initialize(right);
   //Construct the data from json
   kemmaduriouManager.constructBlocksFromKemmaduriou();
 
@@ -65,6 +68,9 @@ define(function (require) {
                 displayEnd();
              }
            }
+
+             Ps.update(left);
+             Ps.update(right);
          };
          var clickListener = function (evt, children) {
            if(statement[side] != '') {
@@ -77,8 +83,13 @@ define(function (require) {
                statement[side] += this.type;
              }
            }
+
            this.html.className = this.html.className.replace(' show-' + side, '');
            this.html.className = this.html.className + ' hide-' + side;
+           var bfade= document.getElementsByClassName('show-' + side);
+           for(var i = 0; i < bfade.length; i++) {
+             bfade[i].className = bfade[i].className + ' fade-out';
+           }
            this.addListener('animationend', animationEnd.bind(this));
          };
          if(!block.isLeaf) {
