@@ -57,6 +57,13 @@
       "P": "F"
     }
   },
+  {"id": "kaletaat", "name": "Kemmadur dre galetaat",
+    "mutations": {
+      "G": "K",
+      "D": "T",
+      "B": "P"
+    }
+  },
   {"id": "kemmesket", "name": "Kemmadur kemmesket",
     "mutations": {
       "G": "C'h",

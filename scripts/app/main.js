@@ -111,7 +111,7 @@ define(function (require) {
       for(var i = 0; i<kemmaduriou.length; i++) {
         var kemmaduri = kemmaduriou[i];
         console.log(statement['left'] + ' > ' + kemmaduri.left);
-        console.log(statement['right'] + ' > ' + kemmaduri  .right);
+        console.log(statement['right'] + ' > ' + kemmaduri.right);
         if((new RegExp(kemmaduri.left)).test(statement['left']) &&
            (new RegExp(kemmaduri.right)).test(statement['right'])) {
           console.log('COUCOU');
