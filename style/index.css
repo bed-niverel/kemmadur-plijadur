@@ -66,6 +66,12 @@ body {
   opacity: 0.90;
 }
 
+.leaf {
+  height:50vh;
+  opacity: 1;
+  cursor: auto;
+}
+
 #left > :nth-child(even) {
   background-color: #BD204E;
 }

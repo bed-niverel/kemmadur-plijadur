@@ -35,7 +35,7 @@ define([],function (blocks,require) {
         firstRow.appendChild(itemFirst);
         secondRow.appendChild(itemSecond);
       }
-
+      
       rummadDiv.className = 'visible';
   }
 

@@ -58,6 +58,7 @@ define(function (require) {
              var blockDom = manager.createBlockDOM(this);
              var leafBlock = new Block();
              leafBlock.isLeaf = true;
+             blockDom.className = blockDom.className  + ' leaf';
              var blockText = blockDom.getElementsByClassName('block-text')[0];
              blockText.innerHTML = '<h1>' + getWord(this.type).name + '</h1>';
              blockText.className = blockText.className + ' ' + otherSide[side];
@@ -102,6 +103,7 @@ define(function (require) {
       left.className = left.className + ' end';
       right.className = right.className + ' end';
       updateKemmaduriou();
+      var rummadKemmadur = null;
       for(var i = 0; i<kemmaduriou.length; i++) {
         var kemmadur = kemmaduriou[i];
         console.log(statement['left'] + ' > ' + kemmadur.left);
@@ -110,13 +112,22 @@ define(function (require) {
            (new RegExp(kemmadur.right)).test(statement['right'])) {
           console.log('COUCOU');
             var rummadKemmadur = getRummad(kemmadur.kemmadur);
-            manager.displayRummadDOM(rummadKemmadur);
-            document.getElementById('rummad-examples').appendChild(
-              document.createTextNode(kemmadur.example)
-            );
             break;
         }
       }
+      if(rummadKemmadur == null) {
+        rummadKemmadur = getRummad('null');
+      }
+      manager.displayRummadDOM(rummadKemmadur);
+
+      if(rummadKemmadur.example) {
+         document.getElementById('rummad-examples').appendChild(
+          document.createTextNode(kemmadur.example)
+         );
+      } else {
+        document.getElementById('rummad-examples-container').className = 'invisible';
+      }
+
 
   }
 
