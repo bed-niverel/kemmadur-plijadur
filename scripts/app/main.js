@@ -104,14 +104,16 @@ define(function (require) {
       right.className = right.className + ' end';
       updateKemmaduriou();
       var rummadKemmadur = null;
+      var kemmadur = null;
       for(var i = 0; i<kemmaduriou.length; i++) {
-        var kemmadur = kemmaduriou[i];
-        console.log(statement['left'] + ' > ' + kemmadur.left);
-        console.log(statement['right'] + ' > ' + kemmadur.right);
-        if((new RegExp(kemmadur.left)).test(statement['left']) &&
-           (new RegExp(kemmadur.right)).test(statement['right'])) {
+        var kemmaduri = kemmaduriou[i];
+        console.log(statement['left'] + ' > ' + kemmaduri.left);
+        console.log(statement['right'] + ' > ' + kemmaduri  .right);
+        if((new RegExp(kemmaduri.left)).test(statement['left']) &&
+           (new RegExp(kemmaduri.right)).test(statement['right'])) {
           console.log('COUCOU');
-            var rummadKemmadur = getRummad(kemmadur.kemmadur);
+            kemmadur = kemmaduri;
+            rummadKemmadur = getRummad(kemmadur.kemmadur);
             break;
         }
       }
@@ -120,12 +122,12 @@ define(function (require) {
       }
       manager.displayRummadDOM(rummadKemmadur);
 
-      if(rummadKemmadur.example) {
+      if(kemmadur && kemmadur.example) {
          document.getElementById('rummad-examples').appendChild(
           document.createTextNode(kemmadur.example)
          );
       } else {
-        document.getElementById('rummad-examples-container').className = 'invisible';
+          document.getElementById('rummad-examples-container').className = 'invisible';
       }
 
 

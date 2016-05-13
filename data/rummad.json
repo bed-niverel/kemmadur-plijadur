@@ -66,7 +66,7 @@
       "M": "V"
     }
   },
-  {"id": "diglok", "name": "Kemmadur kemmesket",
+  {"id": "diglok", "name": "Kemmadur diglok",
     "mutations": {
       "G": "C'h",
       "Gw": "w",
@@ -75,7 +75,7 @@
       "M": "V"
     }
   },
-  {"id": "diglok_k", "name": "Kemmadur diglok k->C'h",
+  {"id": "diglok_k", "name": "Kemmadur diglok",
     "mutations": {
       "K": "C'h"
     }
