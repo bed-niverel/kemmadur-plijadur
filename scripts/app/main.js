@@ -60,7 +60,7 @@ define(function (require) {
              leafBlock.isLeaf = true;
              blockDom.className = blockDom.className  + ' leaf';
              var blockText = blockDom.getElementsByClassName('block-text')[0];
-             blockText.innerHTML = '<h1>' + getWord(this.type).name + '</h1>';
+             blockText.innerHTML = '<h1>' + getWord(this.type).title + '</h1>';
              blockText.className = blockText.className + ' ' + otherSide[side];
              leafBlock.setHtml(blockDom);
              displayBlockArray([leafBlock], container, side);

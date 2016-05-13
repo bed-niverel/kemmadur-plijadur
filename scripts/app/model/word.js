@@ -7,16 +7,16 @@ define(function (require) {
  */
   var otherSide = {'right': 'left', 'left': 'right'};
 
-  var Word = function WordConstructor(id, name, desc) {
+  var Word = function WordConstructor(id, title, desc) {
 
       this.id = id;
-      this.name = name;
+      this.title = title;
       this.desc = desc;
       this.children = [];
   }
 
-  Word.prototype.setName = function(name) {
-    this.name = name;
+  Word.prototype.setTitle = function(title) {
+    this.title = title;
   }
 
   Word.prototype.setDesc = function(desc) {

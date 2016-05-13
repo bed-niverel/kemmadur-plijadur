@@ -26,9 +26,17 @@ define(function (require) {
     var block = new Block();
     var dom = this.blockManager.createBlockDOM(blockDict);
 
-    if(blockDict.desc) {
+    if(blockDict.title) {
       var blockText = dom.getElementsByClassName('block-text')[0];
-      blockText.innerHTML = blockDict.desc;
+      var blockTitle = document.createElement('h1');
+      blockTitle.appendChild(document.createTextNode(blockDict.title));
+
+      blockText.appendChild(blockTitle);
+      if(blockDict.desc) {
+        var blockDesc = document.createElement('p');
+        blockDesc.appendChild(document.createTextNode(blockDict.desc));
+        blockText.appendChild(blockDesc);
+      }
       blockText.className = blockText.className + ' ' + otherSide[this.side];
     }
     if(blockDict.color) {

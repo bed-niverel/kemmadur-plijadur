@@ -13,8 +13,8 @@ define(function (require) {
       this.kemmaduriouData = kemmaduriouData;
       this.wordsData = wordsData;
       // Creates the roots (Ur c'hemmadur)
-      this.leftRoot = new Word('leftRoot', 'left root', '<h1>Ur</h1>');
-      this.rightRoot = new Word('rightRoot', 'righ root', '<h1>C\'hemmadur</h1>');
+      this.leftRoot = new Word('leftRoot', 'Ur', '');
+      this.rightRoot = new Word('rightRoot', 'C\'hemmadur', '');
       this.leftRoot.isRoot = true;
       this.rightRoot.isRoot = true;
   };
@@ -44,7 +44,7 @@ define(function (require) {
        for(wordIndex in this.wordsData) {
          var word = this.wordsData[wordIndex];
          if(word.id == id) {
-           var newWord = new Word(word.id, word.name, word.desc)
+           var newWord = new Word(word.id, word.title, word.desc)
            parent.addChild(newWord);
            return newWord;
          }

@@ -1,64 +1,62 @@
 
 [
-  {"id": "ger_mell", "name": "Gerr-mell", "desc":
-    "<h1>Ur ger-mell</h1><p>an, al, ar, un, ul, ur, en, el, er</p>"},
-  {"id": "sifr", "name": "Sifr", "desc":
-    "<h1>Ur sifr</h1><p>1, 2, 3, 4...</p>"},
-  {"id": "2", "name": "Sifr 2", "desc":
-    "<h1>Ar sifr 2</h1><p>daou, div</p>"},
-  {"id": "3", "name": "Sifr 3", "desc":
-    "<h1>Ar sifr 3</h1><p>tri, teir</p>"},
-  {"id": "4", "name": "Sifr 4", "desc":
-    "<h1>Ar sifr 4</h1><p>pevar, peder</p> "},
-  {"id": "9", "name": "Sifr 9", "desc":
-    "<h1>Ar sifr 9</h1><p>nav</p>"},
-  {"id": "anv", "name": "Anv", "desc":
-    "<h1>Un anv</h1><p>Kador, dañvad, marc'hadourien..."},
-  {"id": "verb", "name": "Verb", "desc":
-    "<h1>Ur verb</h1><p>Debriñ, kousket, kanañ<p/>"
+  {"id": "ger_mell", "title": "Ur ger-mell","desc":
+    "an, al, ar, un, ul, ur, en, el, er"},
+  {"id": "sifr", "title": "Ur sifr","desc":
+    "1, 2, 3, 4..."},
+  {"id": "2", "title": "Ur sifr", "desc":
+    "daou, div"},
+  {"id": "3", "title": "Ar sifr 3", "desc":
+    "tri, teir"},
+  {"id": "4", "title": "Ar sifr 4", "desc":
+    "pevar, peder "},
+  {"id": "9", "title": "Ar sifr 9", "desc":
+    "nav"},
+  {"id": "anv", "title": "Un anv", "desc":
+    "Kador, dañvad, marc'hadourien..."},
+  {"id": "verb", "title": "Ur verb", "desc":
+    "Debriñ, kousket, kanañ"
     },
-  {"id": "benel_unan", "name": "Benel unan", "desc":
-    "<h1>Un anv benel en unander</h1><p>kador, mamm, kentel</p>"
+  {"id": "benel_unan", "title": "Un anv benel en unander", "desc":
+    "kador, mamm, kentel"
     },
-  {"id": "gourel_tud", "name": "Gourel lies tud", "desc":
-    "<h1>Un anv gourel lies tud</h1><p>Brezhonegerien, pesketaerien...</p>"
+  {"id": "gourel_tud", "title": "Un anv gourel lies tud", "desc":
+    "Brezhonegerien, pesketaerien..."
   },
-  {"id": "lmnrv", "name": "L,M,N,R,V", "desc":
-    "<h1>Oc'h echuiñ gant L, M, N, R pe V</h1>"
+  {"id": "lmnrv", "title":
+    "Oc'h echuiñ gant L, M, N, R pe V"
   },
-  {"id": "dtzzh", "name": "D, T, Z, ZH", "desc":
-    "<h1>Oc'h echuiñ gant S, T, Z pe ZH</h1>"
+  {"id": "dtzzh", "title":
+    "Oc'h echuiñ gant S, T, Z pe ZH"
   },
-  {"id": "kensonall", "name": "Kensonenn all", "desc":
-    "<h1>Oc'h echuiñ gant ur gensonenn all</h1>"
+  {"id": "kensonall", "title":
+    "Oc'h echuiñ gant ur gensonenn all"
     },
-  {"id": "anv_gwan", "name": "Anv-gwan", "desc":
-    "<h1>Un anv-gwan</h1><p>Brav, bihan, teñval...</p>"
+  {"id": "anv_gwan", "title": "Un anv-gwan", "desc":
+    "Brav, bihan, teñval..."
     , "order": 3},
-  {"id": "ger_all", "name": "Ger a bep seurt", "desc":
-    "<h1>Ur ger all</h1>"
+  {"id": "ger_all", "title":
+    "Ur ger all"
     , "pattern": ".*", "order": 4},
-    {"id": "anv_all", "name": "Un anv a bep seurt", "desc":
-      "<h1>Un anv all</h1>"
+  {"id": "anv_all", "title":"Un anv all"
       , "pattern": ".*", "order": 90},
-  {"id": "adverb_doarean", "name": "Adverb doareañ", "desc":
-    "<h1>Adverb doareañ</h1><p>GWALL, HANTER, RE, SEUL</p>"
+  {"id": "adverb_doarean", "title": "Adverb doareañ", "desc":
+    "GWALL, HANTER, RE, SEUL"
     },
-  {"id": "blotaat_all", "name": "Blotaat all", "desc":
-    "<h1>Unan eus ar gerioù-mañ</h1><p>A, ABA, DA, DINDAN, DIWAR, DRE, EME, ENDRA, EN EM, (AN) HINI (benel), (AN) HOLL, NA, NE, PA, PE, RA, RE, TRA, WAR</p>"
+  {"id": "blotaat_all", "title": "Unan eus ar gerioù-mañ", "desc":
+    "A, ABA, DA, DINDAN, DIWAR, DRE, EME, ENDRA, EN EM, (AN) HINI (benel), (AN) HOLL, NA, NE, PA, PE, RA, RE, TRA, WAR"
     },
-
-  {"id": "e_o_ma", "name": "E, O, Ma", "desc":
+  {"id": "e_o_ma", "title": "Unan eus ar gerioù-mañ:", "desc":
     "<h1>Unan eus ar gerioù-mañ:</h1><p>E (rannig), O (rannig), MA (stagell)</p>"},
-  {"id": "raganv_gour", "name": "Raganv-gour pe gerioù pec'hennañ", "desc":
-    "<h1>Raganv-gour pe anv-gwan perc'hennañ</h1><p>Ma/va, Am, Az, Da, E, He, Ho, O</p>"},
-  {"id": "ho_az", "name": "Ho, az", "desc":
-    "<h1>Ho, Az</h1>"
+  {"id": "raganv_gour", "title": "Raganv-gour pe anv-gwan perc'hennañ", "desc":
+    "Ma/va, Am, Az, Da, E, He, Ho, O"},
+  {"id": "ho_az", "title": "Ho, az", "desc":
+    ""
   },
-  {"id": "da_e", "name": "Da, e", "desc":
-    "<h1>Da, E</h1>"
+  {"id": "da_e", "title": "Da, e", "desc":
+    ""
     },
-  {"id": "ma_am_he_o", "name": "MA/VA, AM (EM), HE, O", "desc":
-    "<h1>MA/VA, AM (EM), HE, O</h1>"
+  {"id": "ma_am_he_o", "title": "MA/VA, AM (EM), HE, O", "desc":
+    ""
   }
 ]
