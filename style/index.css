@@ -126,7 +126,7 @@ a.button {
 }
 
 .leaf {
-  height:50vh;
+  height:25vh;
   opacity: 1;
   cursor: auto;
 }
@@ -179,12 +179,12 @@ i.restart {
 #right.end {
   /*float:right;*/
   display: inline-block;
-  height: 50vh;
+  height: 25vh;
 }
 #left.end {
   /*float:left;*/
   display: inline-block;
-  height: 50vh;
+  height: 25vh;
 }
 .block-text {
   padding: 5px;
@@ -223,7 +223,7 @@ i.restart {
 
 #rummad {
   text-align: center;
-  height: 50vh;
+  height: 75vh;
   position:relative;
 }
 
