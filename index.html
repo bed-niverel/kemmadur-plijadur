@@ -11,17 +11,26 @@
     </head>
     <body>
        <div class="ribbon-wrapper"><div class="ribbon">BETA</div></div>
-    <div id="left" class="main-block"></div>
-    <div id="right" class="main-block"></div>
-    <div id="rummad" class="invisible">
-      <h1 id="rummad-title"></h1>
-      <div id="rummad-table">
-        <div id="rummad-first-row" class="rummad-row"></div>
-        <div id="rummad-second-row" class="rummad-row"></div>
+    <div id="left" class="main-block"></div><div id="right" class="main-block"></div>
+      <div id="rummad" class="invisible">
+        <h1 id="rummad-title"></h1>
+        <div id="rummad-table" class="rummad-table">
+          <div id="rummad-first-row" class="rummad-row"></div>
+          <div id="rummad-second-row" class="rummad-row"></div>
+        </div>
+        <div id="rummad-voiced-table" class="rummad-table">
+          <br/>Mouezhiet hepken:
+          <div id="rummad-voiced-first-row" class="rummad-row"></div>
+          <div id="rummad-voiced-second-row" class="rummad-row"></div>
+        </div>
+        <div id="rummad-exceptions-container">Nemedennoù: <div id="rummad-exceptions"></div></div>
+        <div id="rummad-examples-container">Skouerioù: <div id="rummad-examples"></div></div>
+
+        <div id="restart"><a class="button" onClick="window.location.reload()"><img src="style/refresh.png">Adkregiñ</a></div>
+
+                <div id="footer">
+                  <a href="https://gitlab.com/tornoz/kemmadur-plijadur" class="button"><img src="style/fork.png">Fork me on <img src="style/gitlab.png"/>GitLab</a>
+                </div>
       </div>
-      <div id="rummad-examples-container">Skouerioù: <div id="rummad-examples"></div></div>
-      <div id="restart">Adkregiñ</div>
-      <div id="footer">Savet gant <a href="https://twitter.com/Tornoz">@Tornoz</a>. Fork me on GitLab!</div>
-    </div>
     </body>
 </html>

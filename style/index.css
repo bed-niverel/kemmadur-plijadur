@@ -23,6 +23,27 @@ body {
        left: 3px;
        right: auto; /* If using `left`, there shouldn't be a `right`. */
      }
+.button {
+  padding: 4px;
+  background-color: #02749c;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button img {
+  margin: 0 4px;
+}
+a.button {
+  text-decoration: none;
+  color: white;
+}
+#restart {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#restart .button {
+  padding: 5px;
+  font-size: 15px;
+}
 
 
      .ribbon-wrapper {
@@ -110,14 +131,15 @@ body {
   cursor: auto;
 }
 
-#restart:before {
-  background-image: url('style/refresh.png');
+i.restart {
+  width: 128px;
+  height: 128px;
+  background-image: url('refresh.png');
 }
 
 #footer {
-  position:absolute;
-  bottom:1px;
-  right:1px;
+  margin:20px 0;
+
 }
 #left > :nth-child(even) {
   background-color: #BD204E;
@@ -147,17 +169,21 @@ body {
     text-align:left;
 }
 #right {
-  float:right;
+  /*float:right;*/
+  display: inline-block;
 }
 #left {
-  float:left;
+  /*float:left;*/
+  display: inline-block;
 }
 #right.end {
-  float:right;
+  /*float:right;*/
+  display: inline-block;
   height: 50vh;
 }
 #left.end {
-  float:left;
+  /*float:left;*/
+  display: inline-block;
   height: 50vh;
 }
 .block-text {
@@ -197,19 +223,22 @@ body {
 
 #rummad {
   text-align: center;
+  height: 50vh;
+  position:relative;
 }
 
 #rummad h1 {
   text-align: center;
   margin-top: 0;
 }
-#rummad-first-row {
+#rummad-first-row, #rummad-voiced-first-row {
   font-weight: bold;
+  font-size: 20px;
 }
 
 .rummad-row div {
   display: inline-block;
-  width: 30px;
+  width: 35px;
   text-align:center;
 }
 

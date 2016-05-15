@@ -34,7 +34,7 @@ define(function (require) {
       blockText.appendChild(blockTitle);
       if(blockDict.desc) {
         var blockDesc = document.createElement('p');
-        blockDesc.appendChild(document.createTextNode(blockDict.desc));
+        blockDesc.innerHTML = blockDict.desc;
         blockText.appendChild(blockDesc);
       }
       blockText.className = blockText.className + ' ' + otherSide[this.side];

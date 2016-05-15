@@ -132,7 +132,14 @@ define(function (require) {
       } else {
           document.getElementById('rummad-examples-container').className = 'invisible';
       }
-
+      if(kemmadur && kemmadur.exceptions) {
+         document.getElementById('rummad-exceptions').appendChild(
+          document.createTextNode(kemmadur.exceptions)
+         );
+      } else {
+          document.getElementById('rummad-exceptions-container').className = 'invisible';
+      }
+      Ps.initialize(document.getElementById('rummad'));
 
   }
 
