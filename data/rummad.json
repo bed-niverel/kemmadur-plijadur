@@ -60,6 +60,7 @@
   {"id": "kaletaat", "name": "Kemmadur dre galetaat",
     "mutations": {
       "G": "K",
+      "Kw": "K",
       "D": "T",
       "B": "P"
     }

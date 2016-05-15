@@ -49,13 +49,16 @@
   {"id": "e_o_ma", "title": "Unan eus ar gerioù-mañ:", "desc":
     "<h1>Unan eus ar gerioù-mañ:</h1><p>E (rannig), O (rannig), MA (stagell)</p>"},
   {"id": "raganv_gour", "title": "Raganv-gour pe anv-gwan perc'hennañ", "desc":
-    "Ma/va, Am, Az, Da, E, He, Ho, O"},
+    "Ma/va, Am, Az, Da, E, He, Hor, Her, Ho, O"},
   {"id": "ho_az", "title": "Ho, az", "desc":
     ""
   },
   {"id": "da_e", "title": "Da, e", "desc":
     ""
     },
+    {"id": "hor_her", "title": "Hor, her", "desc":
+      ""
+      },
   {"id": "ma_am_he_o", "title": "MA/VA, AM (EM), HE, O", "desc":
     ""
   }
