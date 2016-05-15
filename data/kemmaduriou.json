@@ -8,7 +8,7 @@
   {
     "left": "ger_mell", "right": "anv-gourel_tud", "kemmadur":"blotaat_gm",
     "example": "An dud, ar grenarded",
-    "exceptions": "tadoù, testoù, priedoù, maerioù, mestroù"
+    "exceptions": "Anvioù e -où (tadoù, testoù, priedoù...)"
   },
   {"left": "anv-benel_unan-lmnrv", "right": "anv_gwan","kemmadur":"blotaat",
     "example": "Ur vamm galonek"
@@ -20,10 +20,14 @@
     "example": "???"
   },
   {"left": "anv-gourel_tud-lmnrv", "right": "anv_gwan", "kemmadur":"blotaat",
-    "example": "Bezhinerien greñv, labourerien drouzus"
+    "example": "Bezhinerien greñv, labourerien drouzus",
+    "exceptions": "Anvioù e -où (tadoù, testoù, priedoù...)"
   },
   {"left": "anv-gourel_tud-dtzzh", "right": "anv_gwan", "kemmadur":"diglok",
     "example": "???"
+  },
+  {"left": "e_o_ma", "right": "verb", "kemmadur":"kemmesket",
+    "example": "O tigeriñ"
   },
   {"left": "sifr-2", "right": "ger_all", "kemmadur":"blotaat",
     "example": "Div wech, daou varaer"
@@ -37,11 +41,11 @@
   {"left": "sifr-9", "right": "anv-anv_all", "kemmadur":"chwezhan",
     "example": "Nav c'harr"
   },
+  {"left": "sifr-sifr_all", "right": "anv-anv_all", "kemmadur":"null",
+    "exceptions": "Bloaz a vlota goude an niveroù pegementiñ war-bouez 1, 3, 4, 5, 9 ha 1 000 : \"6 vloaz\" met \"9 bloaz\"."
+  },
   {"left": "anv-gourel_tud-kensonall", "right": "anv_gwan",
     "kemmadur":"diglok"
-  },
-  {"left": "e_o_ma", "right": "verb", "kemmadur":"kemmesket",
-    "example": "O tigeriñ"
   },
   {"left": "raganv_gour-hor_her", "right": "verb", "kemmadur":"diglok_k",
     "example": "Hor c'hunujenniñ"
@@ -72,9 +76,12 @@
   },
   {"left": "ger_mell", "right": "anv-anv_all", "kemmadur":"diglok_k",
     "example": "Ur c'hi, ar c'hazh",
-    "exceptions": "ar vein"
+    "exceptions": "Un dra, ur vein (diret)"
   },
   {"left": "ger_mell", "right": "anv_gwan", "kemmadur":"diglok_k",
     "example": "Ar c'hozh ti"
+  },
+  {"left": "anv-anv_all", "right": "anv_gwan", "kemmadur":"null",
+    "exceptions": "Tra (Daou dra gozh)"
   }
 ]
