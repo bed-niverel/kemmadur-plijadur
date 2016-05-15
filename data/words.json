@@ -1,9 +1,9 @@
 
 [
   {"id": "ger_mell", "title": "Ur ger-mell","desc":
-    "an, al, ar, un, ul, ur, en, el, er"},
+    "ar, ur, er"},
   {"id": "sifr", "title": "Ur sifr","desc":
-    "1, 2, 3, 4..."},
+    "2, 3, 4..."},
   {"id": "2", "title": "Ur sifr", "desc":
     "daou, div"},
   {"id": "3", "title": "Ar sifr 3", "desc":
@@ -47,7 +47,7 @@
     "A, ABA, DA, DINDAN, DIWAR, DRE, EME, ENDRA, EN EM, (AN) HINI (benel), (AN) HOLL, NA, NE, PA, PE, RA, RE, TRA, WAR"
     },
   {"id": "e_o_ma", "title": "Unan eus ar gerioù-mañ:", "desc":
-    "<h1>Unan eus ar gerioù-mañ:</h1><p>E (rannig), O (rannig), MA (stagell)</p>"},
+    "E (rannig), O (rannig), MA (stagell)"},
   {"id": "raganv_gour", "title": "Raganv-gour pe anv-gwan perc'hennañ", "desc":
     "Ma/va, Am, Az, Da, E, He, Hor, Her, Ho, O"},
   {"id": "ho_az", "title": "Ho, az", "desc":
