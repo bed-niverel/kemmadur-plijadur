@@ -329,3 +329,14 @@ i.restart {
     margin-left: 0%;
   }
 }
+
+@media (max-width: 600px) {
+  .block-text.medium h1 {
+    font-size: 14px;
+    margin: 0;
+  }
+  .block-text.medium p {
+    font-size: 12px;
+  }
+
+}
