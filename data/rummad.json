@@ -14,12 +14,12 @@
     "mutations_voiced": {
       "H": "mut",
       "C'h": "H",
-      "CH": "J",
+      "Ch": "J",
       "S": "Z",
-      "N": "n",
-      "F": "v",
-      "L": "l",
-      "R": "r"
+      "N": "N",
+      "F": "V",
+      "L": "L",
+      "R": "R"
     }
   },
   {"id": "blotaat_gm", "name": "Kemmadur dre vlotaat",
@@ -35,12 +35,12 @@
     "mutations_voiced": {
       "H": "mut",
       "C'h": "H",
-      "CH": "J",
+      "Ch": "J",
       "S": "Z",
-      "N": "n",
-      "F": "v",
-      "L": "l",
-      "R": "r"
+      "N": "N",
+      "F": "V",
+      "L": "L",
+      "R": "R"
     }
   },
   {"id": "blotaat", "name": "Kemmadur dre vlotaat",
