@@ -23,6 +23,8 @@
   {"left": "sifr-2", "right": "ger_all", "kemmadur":"blotaat", "example": "Div wech, daou varaer"},
   {"left": "raganv_gour-ma_am_he_o", "right": "verb", "kemmadur":"chwezhan", "example": "Aet eo d'o fokañ, "},
   {"left": "raganv_gour-ma_am_he_o", "right": "anv-anv_all", "kemmadur":"chwezhan", "example": "Ma fenn, Mont ran d'am zi, He faperioù, "},
-  {"left": "ger_mell", "right": "anv-anv_all", "kemmadur":"diglok_k", "example": "Ur c'hi, ar c'hazh", "exceptions": "ar vein"}
+  {"left": "ger_mell", "right": "anv-anv_all", "kemmadur":"diglok_k", "example": "Ur c'hi, ar c'hazh", "exceptions": "ar vein"},
+  {"left": "ger_mell", "right": "anv_gwan", "kemmadur":"diglok_k", "example": "Ar c'hozh ti"}
+
 
 ]
