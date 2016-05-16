@@ -9,3 +9,19 @@ It uses (included in the git repo):
 It is unfinished and still in development, but it may be possible to adapt
 the concept to other celtic languages (or other languages with mutations).
 Please contact me if you wish to do so.
+
+===
+
+Un ostilh savet evit skoazellañ an deraouerien da gavout ha da implijout kemmadurioù 
+ar brezhoneg eo "Kemmadur Plijadur".
+Skrivet eo e Javascript hag erounezet eo war tu an arval hepken. Un dafariad HTTP
+a zo trawalc'h evit e staliañ.
+
+Implijout a ra (endalc'het er mirlec'h git):
+
+ * al levraoueg js "require.js" gant an enlugelladoù 'text' ha 'json'
+ * an nodrezh Webly Sleek
+ 
+Diechu eo ar raktres ha war ziorroiñ emañ c'hoazh, met gallus eo da
+vezañ azasaet evit yezhoù keltiek all (pe yezhoù gant kemmadurioù all).
+Kit e darempred ganin ma fell deoc'h en ober.
