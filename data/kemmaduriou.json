@@ -1,87 +1,87 @@
 
 [
   {
-    "left": "ger_mell", "right": "anv-benel_unan", "kemmadur":"blotaat_gm",
+    "left": "ger_mell", "right": "anv-benel_unan", "mutation":"blotaat_gm",
     "example": "Ur gador, ar vuoc'h...",
     "exceptions": "plac'h, gar, greg"
   },
   {
-    "left": "ger_mell", "right": "anv-gourel_tud", "kemmadur":"blotaat_gm",
+    "left": "ger_mell", "right": "anv-gourel_tud", "mutation":"blotaat_gm",
     "example": "An dud, ar grenarded",
     "exceptions": "Anvioù e -où (tadoù, testoù, priedoù...)"
   },
-  {"left": "anv-benel_unan-lmnrv", "right": "anv_gwan","kemmadur":"blotaat",
+  {"left": "anv-benel_unan-lmnrv", "right": "anv_gwan","mutation":"blotaat",
     "example": "Ur vamm galonek"
   },
-  {"left": "anv-benel_unan-dtzzh", "right": "anv_gwan", "kemmadur":"diglok",
+  {"left": "anv-benel_unan-dtzzh", "right": "anv_gwan", "mutation":"diglok",
     "example": "Ur vaouez vihan, ur yezh vrav"
   },
-  {"left": "anv-benel_unan-kensonall", "right": "anv_gwan", "kemmadur":"diglok",
+  {"left": "anv-benel_unan-kensonall", "right": "anv_gwan", "mutation":"diglok",
     "example": "???"
   },
-  {"left": "anv-gourel_tud-lmnrv", "right": "anv_gwan", "kemmadur":"blotaat",
+  {"left": "anv-gourel_tud-lmnrv", "right": "anv_gwan", "mutation":"blotaat",
     "example": "Bezhinerien greñv, labourerien drouzus",
     "exceptions": "Anvioù e -où (tadoù, testoù, priedoù...)"
   },
-  {"left": "anv-gourel_tud-dtzzh", "right": "anv_gwan", "kemmadur":"diglok",
+  {"left": "anv-gourel_tud-dtzzh", "right": "anv_gwan", "mutation":"diglok",
     "example": "???"
   },
-  {"left": "e_o_ma", "right": "verb", "kemmadur":"kemmesket",
+  {"left": "e_o_ma", "right": "verb", "mutation":"kemmesket",
     "example": "O tigeriñ"
   },
-  {"left": "sifr-2", "right": "ger_all", "kemmadur":"blotaat",
+  {"left": "sifr-2", "right": "ger_all", "mutation":"blotaat",
     "example": "Div wech, daou varaer"
   },
-  {"left": "sifr-3", "right": "anv-anv_all", "kemmadur":"chwezhan",
+  {"left": "sifr-3", "right": "anv-anv_all", "mutation":"chwezhan",
     "example": "Teir flac'h, tri faotr"
   },
-  {"left": "sifr-4", "right": "anv-anv_all", "kemmadur":"chwezhan",
+  {"left": "sifr-4", "right": "anv-anv_all", "mutation":"chwezhan",
     "example": "Peder flac'h, pevar faotr"
   },
-  {"left": "sifr-9", "right": "anv-anv_all", "kemmadur":"chwezhan",
+  {"left": "sifr-9", "right": "anv-anv_all", "mutation":"chwezhan",
     "example": "Nav c'harr"
   },
-  {"left": "sifr-sifr_all", "right": "anv-anv_all", "kemmadur":"null",
+  {"left": "sifr-sifr_all", "right": "anv-anv_all", "mutation":"null",
     "exceptions": "Bloaz a vlota goude an niveroù pegementiñ war-bouez 1, 3, 4, 5, 9 ha 1 000 : \"6 vloaz\" met \"9 bloaz\"."
   },
   {"left": "anv-gourel_tud-kensonall", "right": "anv_gwan",
-    "kemmadur":"diglok"
+    "mutation":"diglok"
   },
-  {"left": "raganv_gour-ma_am_he_o", "right": "verb", "kemmadur":"chwezhan",
+  {"left": "raganv_gour-ma_am_he_o", "right": "verb", "mutation":"chwezhan",
     "example": "Aet eo d'o fokañ, "
   },
-  {"left": "raganv_gour-da_e", "right": "ger_all", "kemmadur":"blotaat",
+  {"left": "raganv_gour-da_e", "right": "ger_all", "mutation":"blotaat",
       "example": "Debr da grampouezhenn, Torret en deus e vrec'h"
   },
-  {"left": "raganv_gour-hor_her", "right": "verb", "kemmadur":"diglok_k",
+  {"left": "raganv_gour-hor_her", "right": "verb", "mutation":"diglok_k",
     "example": "Hor c'hunujenniñ"
   },
-  {"left": "raganv_gour-ho_az", "right": "anv-anv_all", "kemmadur":"kaletaat",
+  {"left": "raganv_gour-ho_az", "right": "anv-anv_all", "mutation":"kaletaat",
     "example": "Kemerit ho pinioù, Mont a ri d'az  ?"
   },
-  {"left": "raganv_gour-ho_az", "right": "verb", "kemmadur":"kaletaat",
+  {"left": "raganv_gour-ho_az", "right": "verb", "mutation":"kaletaat",
     "examble": "Dont a raio ar ronfl d'ho tebriñ"
   },
-  {"left": "raganv_gour-hor_her", "right": "anv", "kemmadur":"diglok_k",
+  {"left": "raganv_gour-hor_her", "right": "anv", "mutation":"diglok_k",
     "example": "Hor c'hazh"
   },
-  {"left": "blotaat_all", "right": "ger_all", "kemmadur":"blotaat",
+  {"left": "blotaat_all", "right": "ger_all", "mutation":"blotaat",
     "example": "Kerzh da zebriñ, An holl dud, Mont war vor..."
   },
-  {"left": "adverb_doarean", "right": "ger_all", "kemmadur":"blotaat",
+  {"left": "adverb_doarean", "right": "ger_all", "mutation":"blotaat",
     "example": "Gwall deñval, Hanter dorret, Re vihan, Seul vrasoc'h"
   },
-  {"left": "raganv_gour-ma_am_he_o", "right": "anv-anv_all", "kemmadur":"chwezhan",
+  {"left": "raganv_gour-ma_am_he_o", "right": "anv-anv_all", "mutation":"chwezhan",
     "example": "Ma fenn, Mont ran d'am zi, He faperioù, "
   },
-  {"left": "ger_mell", "right": "anv-anv_all", "kemmadur":"diglok_k",
+  {"left": "ger_mell", "right": "anv-anv_all", "mutation":"diglok_k",
     "example": "Ur c'hi, ar c'hazh",
     "exceptions": "Un dra, ur vein (diret)"
   },
-  {"left": "ger_mell", "right": "anv_gwan", "kemmadur":"diglok_k",
+  {"left": "ger_mell", "right": "anv_gwan", "mutation":"diglok_k",
     "example": "Ar c'hozh ti"
   },
-  {"left": "anv-anv_all", "right": "anv_gwan", "kemmadur":"null",
+  {"left": "anv-anv_all", "right": "anv_gwan", "mutation":"null",
     "exceptions": "Tra (Daou dra gozh)"
   }
 ]

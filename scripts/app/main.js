@@ -116,7 +116,7 @@ define(function (require) {
            (new RegExp(kemmaduri.right)).test(statement['right'])) {
           console.log('COUCOU');
             kemmadur = kemmaduri;
-            rummadKemmadur = getRummad(kemmadur.kemmadur);
+            rummadKemmadur = getRummad(kemmadur.mutation);
             break;
         }
       }
