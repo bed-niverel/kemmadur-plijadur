@@ -47,6 +47,12 @@
   {"left": "anv-gourel_tud-kensonall", "right": "anv_gwan",
     "kemmadur":"diglok"
   },
+  {"left": "raganv_gour-ma_am_he_o", "right": "verb", "kemmadur":"chwezhan",
+    "example": "Aet eo d'o fokañ, "
+  },
+  {"left": "raganv_gour-da_e", "right": "ger_all", "kemmadur":"blotaat",
+      "example": "Debr da grampouezhenn, Torret en deus e vrec'h"
+  },
   {"left": "raganv_gour-hor_her", "right": "verb", "kemmadur":"diglok_k",
     "example": "Hor c'hunujenniñ"
   },
@@ -62,14 +68,8 @@
   {"left": "blotaat_all", "right": "ger_all", "kemmadur":"blotaat",
     "example": "Kerzh da zebriñ, An holl dud, Mont war vor..."
   },
-  {"left": "raganv_gour-da_e", "right": "ger_all", "kemmadur":"blotaat",
-    "example": "Debr da grampouezhenn, Torret en deus e vrec'h"
-  },
   {"left": "adverb_doarean", "right": "ger_all", "kemmadur":"blotaat",
     "example": "Gwall deñval, Hanter dorret, Re vihan, Seul vrasoc'h"
-  },
-  {"left": "raganv_gour-ma_am_he_o", "right": "verb", "kemmadur":"chwezhan",
-    "example": "Aet eo d'o fokañ, "
   },
   {"left": "raganv_gour-ma_am_he_o", "right": "anv-anv_all", "kemmadur":"chwezhan",
     "example": "Ma fenn, Mont ran d'am zi, He faperioù, "
