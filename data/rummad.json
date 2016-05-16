@@ -43,13 +43,6 @@
       "R": "R"
     }
   },
-  {"id": "blotaat", "name": "Kemmadur dre vlotaat",
-    "mutations": {
-      "G": "K",
-      "D": "T",
-      "B": "P"
-    }
-  },
   {"id": "chwezhan", "name": "Kemmadur dre c'hwezhañ",
     "mutations": {
       "K": "C'h",
@@ -60,7 +53,7 @@
   {"id": "kaletaat", "name": "Kemmadur dre galetaat",
     "mutations": {
       "G": "K",
-      "Kw": "K",
+      "Gw": "Kw",
       "D": "T",
       "B": "P"
     }
